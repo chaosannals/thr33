@@ -23,6 +23,6 @@ define('APP_DEBUG', true);
 define('APP_PATH', dirname(__DIR__));
 
 // 引入ThinkPHP入口文件
-require APP_PATH.'/ThinkPHP/ThinkPHP.php';
+require APP_PATH.'/Thr33/ThinkPHP.php';
 
 // 亲^_^ 后面不需要任何代码了 就是如此简单

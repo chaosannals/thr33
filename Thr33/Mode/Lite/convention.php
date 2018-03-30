@@ -22,7 +22,7 @@ return array(
     'APP_DOMAIN_SUFFIX'      => '', // 域名后缀 如果是com.cn net.cn 之类的后缀必须设置
     'ACTION_SUFFIX'          => '', // 操作方法后缀
     'MULTI_MODULE'           => true, // 是否允许多模块 如果为false 则必须设置 DEFAULT_MODULE
-    'MODULE_DENY_LIST'       => array('Common', 'Runtime'),
+    'MODULE_DENY_LIST'       => array('Common', 'Runtime', 'Public', 'Thr33', 'Vendor'),
 
     /* Cookie设置 */
     'COOKIE_EXPIRE'          => 0, // Cookie有效期
