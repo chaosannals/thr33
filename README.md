@@ -6,5 +6,5 @@
 # 说明
 
 - ThinkPHP3.2 的协议和说明文件在 Thr33 目录里。
-- ThinkPHP3.2 是 Apache-2.0 开源协议，所以本项目也使用该协议。
+- ThinkPHP3.2 是 Apache-2.0 开源协议，所以本项目也延用该协议。
 - 更多关于 ThinkPHP3.2 请到 [ThinkPHP](http://www.thinkphp.cn) 官网。
