@@ -16,16 +16,13 @@ if (version_compare(PHP_VERSION, '5.5.0', '<')) {
     die('require PHP > 5.5.0 !');
 }
 
+// 记录开始运行时间
+$GLOBALS['_beginTime'] = microtime(true);
+
 // 加载 Composer 自动加载。
 require __DIR__.'/Vendor/autoload.php';
 
-// 开启调试模式 建议开发阶段开启 部署阶段注释或者设为false
-define('APP_DEBUG', true);
-
-// 定义应用目录
-define('APP_PATH', __DIR__.'/Application/');
-
-// 引入ThinkPHP入口文件
-require __DIR__.'/ThinkPHP/Thr33.php';
+// 运行
+Thr33\Main::run();
 
 // 亲^_^ 后面不需要任何代码了 就是如此简单
