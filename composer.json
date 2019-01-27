@@ -4,6 +4,7 @@
     "type": "framework",
     "keywords": ["framework","thinkphp","Thr33","ORM"],
     "homepage": "http://github.com/chaosannals/thr33",
+
     "license": "Apache-2.0",
     "authors": [
         {
