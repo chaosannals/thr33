@@ -7,6 +7,10 @@
     "license": "Apache-2.0",
     "authors": [
         {
+            "name": "liu21st",
+            "email": "liu21st@gmail.com"
+        },
+        {
             "name": "chaosannals",
             "email": "chaosannals@outlook.com"
         }
@@ -15,6 +19,7 @@
         "vendor-dir": "Vendor"
     },
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=5.5.0",
+        "vlucas/phpdotenv": "^3.3"
     }
 }
