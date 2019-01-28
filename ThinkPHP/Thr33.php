@@ -20,7 +20,7 @@ if (MEMORY_LIMIT_ON) {
 }
 
 // 版本信息
-const THINK_VERSION = '3.3.1';
+const THINK_VERSION = '3.3.2';
 
 // URL 模式定义
 const URL_COMMON   = 0; //普通模式
